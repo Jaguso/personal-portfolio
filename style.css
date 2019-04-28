@@ -3,11 +3,18 @@ body {
 }
 
 #welcome-section {
+  position: absolute;
   display: flex;
   justify-content: center;
   align-items: center;
-  flex: 1;
-  height: 300%;
+  height: 100%;
+  width: 100%;
   background-color: rgba(8, 8, 49, 1);
   color: rgba(255, 255, 255, 0.9);
+}
+
+.title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
