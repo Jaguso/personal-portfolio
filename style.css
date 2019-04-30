@@ -15,7 +15,6 @@ li {
 }
 
 #welcome-section {
-  /* position: absolute; */
   display: flex;
   justify-content: center;
   align-items: center;
@@ -26,18 +25,25 @@ li {
 }
 
 .title {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  text-align: center;
 }
 
 #projects {
-  height: 100vh;
+  /* height: 100vh; */
   background-color: rgba(255, 255, 255, 0.7);
   color: rgba(8, 8, 49, 1);
+  display: flex;
+  justify-content: space-around;
 }
 
-.something {
-  background-color: blanchedalmond;
-  height: 90vh;
+.project-tile {
+  margin: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 25%;
+  height: auto;
+  border: 1px solid;
+  border-radius: 3px;
 }
