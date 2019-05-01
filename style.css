@@ -5,6 +5,10 @@ body {
   font-family: 'Raleway', Helvetica, sans-serif;
 }
 
+#main {
+  margin-bottom: 200px;
+}
+
 #navbar {
   position: fixed;
   top: 0;
@@ -64,6 +68,7 @@ li {
   flex-direction: column;
   width: 20%;
   height: auto;
-  border: 1px solid;
-  border-radius: 3px;
+  border: 2px solid;
+  border-radius: 2px;
+  border-color: rgba(0,0,0,0.5);
 }
